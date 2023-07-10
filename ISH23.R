@@ -30,7 +30,8 @@ atpath_ko
 
 identical(atpath, atpath_ko)
 
-plotSequence(sequence = atpath_ko) # this for slides 
+plotSequence(sequence = atpath_ko, onColor = "orange",offColor = "blue",
+             attractor.sep.col = "black") # this for slides 
 
 # look more closely, for no reason
 
