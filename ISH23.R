@@ -21,7 +21,8 @@ initstate <- c(c(1,1), rep(0,8)) # arbitrary start state for illustrating
 
 atpath <- getPathToAttractor(cc, initstate)
 atpath
-plotSequence(sequence = atpath) # this for slides 
+plotSequence(sequence = atpath, onColor = "orange",offColor = "blue",
+             attractor.sep.col = "black") # this for slides 
 
 # looks the same for knockout net
 atpath_ko <- getPathToAttractor(kocel,initstate)
